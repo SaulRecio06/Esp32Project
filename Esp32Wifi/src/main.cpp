@@ -2,12 +2,12 @@
 #include <HTTPClient.h>
 #include <Arduino.h>
 
-#define WIFI_NETWORK  "Totalplay-82A3"
-#define WIFI_PASSWORD "82A3DC71ArDj6abQ"
-#define WIFI_TIMEOUT_MS 20000
+// #define WIFI_NETWORK  "Totalplay-82A3"
+// #define WIFI_PASSWORD "82A3DC71ArDj6abQ"
+// #define WIFI_TIMEOUT_MS 20000
 
-const char* ssid     = "Totalplay-82A3";
-const char* password = "82A3DC71ArDj6abQ";
+const char* ssid     = "NokiaSaul";
+const char* password = "123Esp32asd";
 
 #define RedLed 22
 #define GreenLed 23
@@ -16,12 +16,9 @@ WiFiServer server(80);
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
     pinMode(RedLed, OUTPUT);      // set the LED pin mode
-
-    delay(10);
-
-    // We start by connecting to a WiFi network
+    // We start by connecting to a WiFi networkCodigo:
 
     Serial.println();
     Serial.println();
