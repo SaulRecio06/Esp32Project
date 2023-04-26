@@ -9,11 +9,11 @@
 #define BLYNK_AUTH_TOKEN "9DjTiVtewun8J5TFJfTSJuR9oWZpGR7u"
 
 
-#define WIFI_NETWORK "Nokia8Saul"
-#define WIFI_PASSWORD "SaulRedPrivate.99"
+// #define WIFI_NETWORK "Nokia8Saul"
+// #define WIFI_PASSWORD "SaulRedPrivate.99"
 
-// #define WIFI_NETWORK  "Totalplay-82A3"
-// #define WIFI_PASSWORD "82A3DC71ArDj6abQ"
+#define WIFI_NETWORK  "Totalplay-82A3"
+#define WIFI_PASSWORD "82A3DC71ArDj6abQ"
 
 
 
